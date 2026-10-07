@@ -8,3 +8,8 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Project architecture
+- Keep this prototype as a single scrolling index route with section anchors, because the requested navigation explicitly stays on one page.
+- Define the club's visual styles and semantic color tokens in src/styles.css, keeping feature markup theme-independent.
+- Serve uploaded club media through Lovable Assets pointers rather than committed binaries.
