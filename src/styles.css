@@ -238,7 +238,6 @@ h1 { font-size: 24px; line-height: 1.15; font-weight: 500; margin: 0; }
 .topic-0 { color: var(--puzzle-blue); }.topic-1 { color: var(--puzzle-purple); }.topic-2 { color: var(--puzzle-green); }.topic-3 { color: var(--puzzle-orange); }.topic-4 { color: var(--puzzle-red); }.topic-5 { color: var(--puzzle-yellow); }.topic-6 { color: var(--puzzle-teal); }
 .light-section { background: var(--light-surface); color: var(--light-ink); }
 .about-section { padding-block: 78px; position: relative; }
-.about-section::before { content: ''; position: absolute; top: -13px; left: 11%; width: 28px; height: 28px; border-radius: 50%; background: var(--light-surface); }
 .section-label { color: var(--muted-foreground); margin-bottom: 23px; }
 .light-section .section-label { color: var(--light-muted); }
 h2 { font-size: 39px; font-weight: 500; line-height: 1.18; margin: 0; }
