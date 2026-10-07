@@ -5,3 +5,5 @@
 - [x] Verify navigation and layout.
 - [x] Update the logo background and hero copy, buttons, animated puzzle pieces, and affiliation badge.
 - [x] Verify the updated hero and both destination buttons.
+- [x] Add About section copy, the Curiosity → Impact flow, six What We Do cards, and the ownership banner.
+- [ ] Verify the new About and What We Do sections on desktop and mobile.
