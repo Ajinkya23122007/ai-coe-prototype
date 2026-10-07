@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ArrowUpRight, ArrowDown, Menu, X, Puzzle, Code2, CalendarDays, Users, Cpu, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/ai-builders-logo.png.asset.json";
+import { HeroPuzzle } from "@/components/hero-puzzle";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
@@ -36,13 +37,13 @@ function Index() {
         <section id="home" className="home-section grid-surface">
           <div className="page-width hero-inner">
             <div className="hero-copy">
-              <div className="eyebrow"><span className="status-dot" /> STUDENT-LED. BUILDER-DRIVEN.</div>
-              <h1>AI Builders<span className="hero-tagline">Meet.<br /><span className="build-word">Build.</span> Begin.</span></h1>
-              <p className="hero-description">We learn AI by building.<br />A community of curious minds turning<br className="desktop-break" /> ideas into real builds.</p>
-              <div className="hero-actions"><Button asChild size="lg"><a href="#join">Find your people <ArrowUpRight /></a></Button><a className="quiet-link" href="#what-we-do">Explore the club <ArrowDown size={16} /></a></div>
-              <div className="affiliation"><span className="affiliation-line" /><p>Universal AI University<span>Under the AI Centre of Excellence</span></p></div>
+              <div className="eyebrow"><span className="status-dot" /> AI BUILDERS · STUDENT-LED. BUILDER-DRIVEN.</div>
+              <h1 className="hero-headline">We Learn AI<br />by <span className="build-word">Building.</span></h1>
+              <p className="hero-description">A student-led AI community at Universal AI University, where ideas become real builds.</p>
+              <div className="hero-actions"><Button asChild size="lg" className="hero-join"><a href="#join">Join the Club <ArrowUpRight /></a></Button><Button asChild size="lg" variant="outline" className="hero-projects"><a href="#projects">See Our Projects <ArrowUpRight /></a></Button></div>
+              <p className="hero-tagline">Meet. Build. Begin.</p>
             </div>
-            <div className="hero-art"><div className="art-caption"><Puzzle size={15} /> ONE PIECE AT A TIME</div><img src={logo.url} alt="A robotic arm assembling colorful AI puzzle pieces" /><div className="art-bottom"><span className="small-cross">+</span> IDEAS <span>→</span> REAL BUILDS <span className="small-cross">+</span></div></div>
+            <div className="hero-art"><div className="coe-badge"><Cpu size={16} /><span>Under AI CoE · Universal AI University</span></div><HeroPuzzle /><div className="art-bottom"><span className="small-cross">+</span> IDEAS <span>→</span> REAL BUILDS <span className="small-cross">+</span></div></div>
           </div>
           <div className="page-width hero-bottom"><span>A place to start. A space to build.</span><a href="#about">SCROLL TO DISCOVER <ArrowDown size={14} /></a></div>
         </section>
