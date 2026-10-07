@@ -13,3 +13,4 @@
 - Keep this prototype as a single scrolling index route with section anchors, because the requested navigation explicitly stays on one page.
 - Define the club's visual styles and semantic color tokens in src/styles.css, keeping feature markup theme-independent.
 - Serve uploaded club media through Lovable Assets pointers rather than committed binaries.
+- Render the hero puzzle as an accessible SVG with CSS-controlled assembly animation, because labeled interlocking pieces need crisp geometry and reduced-motion support.
